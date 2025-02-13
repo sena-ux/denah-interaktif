@@ -14,6 +14,11 @@ Route::get('/uploads/images', function () {
     return view('upload-image');
 });
 
+Route::get('/slide', function() {
+    return response()->redirectTo('https://www.canva.com/design/DAGe_y6oNRA/ohyf02jkCkDhVFsE_B6fHg/view?utm_content=DAGe_y6oNRA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he41e723a65')
+                     ->header('Target', '_blank');
+});
+
 Route::post('uploads/gambar', function (Request $request) {
     try {
         $validated = $request->validate([

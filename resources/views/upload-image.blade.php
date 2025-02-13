@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="{{ asset('logo-smanda.ico') }}" type="image/x-icon">
     <title>Denah CCTV</title>
     <style>
     </style>
@@ -16,7 +17,8 @@
 
 <body>
     @include('sweetalert::alert')
-    <div class="d-flex justify-content-center align-items-center h-100 w-100" style="display: flex; justify-content: center; align-items: center; height: 100vh; width: 100%;">
+    <div class="d-flex justify-content-center align-items-center h-100 w-100"
+        style="display: flex; justify-content: center; align-items: center; height: 100vh; width: 100%;">
         <div class="row">
             <div class="col-md-6 col-lg-12">
                 <div class="card">
