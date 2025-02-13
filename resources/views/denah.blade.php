@@ -22,7 +22,7 @@
         <hr>
         <div class="d-flex d-grid gap-2 flex-wrap">
             @for ($i = 1; $i <= 32; $i++) 
-            <a data-fancybox data-src="{{ asset('assets/images/cctv-' . $i . '.jpg') }}"
+            <a data-fancybox="cctv-{{ $i }}" data-src="{{ asset('assets/images/cctv-' . $i . '.jpg') }}"
                 data-caption="Foto CCTV-{{ $i }}" class="btn btn-primary">
                 {{-- <img src="{{ asset('assets/images/cctv-' . $i . '.jpg') }}" class="img--fluid" alt="" /> --}}
                 {{ $i }}
